@@ -20,9 +20,10 @@ const PersonalRoom = () => {
 
   const { user } = useUser()
   const meetingId = user?.id
-  const meetingLink = `${process.env.NEXT_PUBLIC_BASE_URL}/meeting/${user?.id}?personal=true`
+  const meetingLink = `${process.env.NEXT_PUBLIC_BASE_URL}/meeting/${meetingId}?personal=true`
 
-  const {call} = useGetCallById(meetingId)
+  const { call } = useGetCallById({id : meetingId!})
+
   const client = useStreamVideoClient()
 
   const router = useRouter()
@@ -30,12 +31,12 @@ const PersonalRoom = () => {
   const startRoom = async () => {
     if (!client || !user) return
 
-    
-    if(!call){
-      
-      const newCall = client.call('default', meetingId)
+
+    if (!call) {
+
+      const newCall = client.call('default', meetingId!)
       await newCall.getOrCreate({
-        data:{
+        data: {
           starts_at: new Date().toISOString()
         }
       })
@@ -50,7 +51,7 @@ const PersonalRoom = () => {
 
       <div className="flex w-full flex-col gap-10 text-white">
         <Table title='Topic :' description={`${user?.firstName}'s meeting room`} />
-        <Table title='Meeting ID :' description={`${meetingId}`} />
+        <Table title='Meeting ID :' description={`${meetingId!}`} />
         <Table title='Invite Link :' description={`${meetingLink}`} />
       </div>
 
@@ -58,11 +59,11 @@ const PersonalRoom = () => {
         <Button className='bg-blue-1' onClick={startRoom}>
           Start Meeting
         </Button>
-        <Button className='bg-gray-800' onClick={()=>{
+        <Button className='bg-gray-800' onClick={() => {
           navigator.clipboard.writeText(meetingLink)
-          toast({title: 'Link Copied'})
+          toast({ title: 'Link Copied' })
         }}>
-          <Image src={'/icons/copy.svg'} alt='img' width={20} height={20}/>
+          <Image src={'/icons/copy.svg'} alt='img' width={20} height={20} />
           &nbsp;Copy Invitation
         </Button>
       </div>
