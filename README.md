@@ -31,8 +31,8 @@ Whether you're conducting virtual meetings, catching up with friends and family,
 <h4 align="">Frontend:</h4>
 
 <p align="">
-   <img src="https://shields.io/badge/nextJS-000?logo=vercel&style=for-the-badge" >
-  <img src="https://img.shields.io/badge/JavaScript-blue?style=for-the-badge&logo=typescript&logoColor=white" alt="javascript" />
+   <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff&style=for-the-badge" >
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=for-the-badge" alt="javascript" />
   <img src="https://img.shields.io/badge/shadcn%2Fui-000?logo=shadcnui&logoColor=fff&style=for-the-badge" alt="Shader UI Logo"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=for-the-badge" alt="Shader UI Logo"/>
   <img src = "https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
