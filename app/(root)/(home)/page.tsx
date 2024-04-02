@@ -4,7 +4,9 @@ const Home = () => {
 
   const now = new Date()
   const date = (new Intl.DateTimeFormat('en-US', {dateStyle: 'full'})).format(now)
-  const time = now.toLocaleString('en-US', {hour:'2-digit', minute:'2-digit'})
+  const time = now.toLocaleString('en-IN', {hour:'2-digit', minute:'2-digit'}).toLocaleUpperCase()
+
+  // console.log(time)
 
   return (
     <section className='flex size-full flex-col gap-10 text-white'>
