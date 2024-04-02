@@ -56,15 +56,15 @@ Whether you're conducting virtual meetings, catching up with friends and family,
 
 <h4 align="">Screenshot:</h4>
 
-![Screenshot 2023-08-23 170150](https://github.com/gurrudev/HopeHarbor/assets/80522156/7bd52ea1-ed6a-4109-86ec-30a1f24c5fc0) | ![Screenshot 2023-08-23 161604](https://github.com/gurrudev/HopeHarbor/assets/80522156/ae98695d-4325-4a39-a510-fb8227f7bf89) |
+![1](https://github.com/gurrudev/viz-chat/assets/80522156/55c580e0-89ed-4b06-9710-9988ab1651d6) | ![3](https://github.com/gurrudev/viz-chat/assets/80522156/dee7d4b9-9cb7-4e95-bb2f-31e1f1bb9646) |
+| :---: | :---: | 
+
+![2](https://github.com/gurrudev/viz-chat/assets/80522156/09775afd-6f8d-4e91-8c3d-f1c931db8d48) | ![4](https://github.com/gurrudev/viz-chat/assets/80522156/db00cd5c-b1cd-49bd-ad20-9ddc49848405) |
 | :---: | :---: | 
 
 <h3 align=""><a href="https://vizchat.vercel.app/"><strong>Want to see live preview »</strong></a></h3>
 
-
 <br />
-
-
 
 ## Contact
 
