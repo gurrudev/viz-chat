@@ -50,7 +50,7 @@ const PersonalRoom = () => {
       </h1>
 
       <div className="flex w-full flex-col gap-10 text-white">
-        <Table title='Topic :' description={`${user?.firstName}'s meeting room`} />
+        <Table title='Topic :' description={`${user?.username}'s meeting room`} />
         <Table title='Meeting ID :' description={`${meetingId!}`} />
         <Table title='Invite Link :' description={`${meetingLink}`} />
       </div>
