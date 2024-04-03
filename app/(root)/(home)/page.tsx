@@ -4,7 +4,9 @@ const Home = () => {
 
   const now = new Date()
   const date = (new Intl.DateTimeFormat('en-US', {dateStyle: 'full'})).format(now)
-  const time = now.toLocaleString('en-IN', {hour:'2-digit', minute:'2-digit'}).toLocaleUpperCase()
+  const options = { hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Kolkata' };
+const time = now.toLocaleString('en-IN', options).toLocaleUpperCase();
+
 
   // console.log(time)
 
