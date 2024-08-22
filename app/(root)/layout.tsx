@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "VizChat",
   description: "A video conferencing application",
   verification:{
-    google: "oKXqnPx7kozZF3XvZCf07H4hefcb_9EBH3bAfIUUPkU"
+    google: "Hz-JESTfNWJ5jkzLhLbecSpoN2zNwyUvG_aTa8rH7xY"
   },
   authors:{
     name : "ASHUTOSH PAWAR",
